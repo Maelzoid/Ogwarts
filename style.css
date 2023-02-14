@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    margin: 0px;
+    color: #eeeeee;
+    font-family: Helvetica, arial ,sans-serif;
+    text-align: left;
+    font-size: 9pt;
+} 
+
+nav{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+main{
+    margin-top:300px;
+}
+
+.header{
+    margin: 0px;
+    background-image: url("./images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 170px;
+    font-size:32pt;
+    padding-top: 80px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size:14pt;
+    padding-top: 20px;
+}
+
+h4{
+    text-align: left;
+    margin-top: 0;
+    font-size: 11pt;
+}
+
+.grid{
+    display: grid;
+    width:100%;
+    height:30px;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(5,20%);
+    background-color: black;
+    color: rgb(200,200,200);
+    font-size: 8pt;
+    text-align: center;
+    list-style-type: none; 
+    line-height: 300%;
+    vertical-align: middle;
+}
+
+.wrapper{
+    display: grid;
+    width: 100%;
+    place-items: center;
+}
+
+.secondGrid{
+    margin: 20px 0px ;
+    display: grid;
+    width:80%;
+    max-width: 800px;
+    grid-template-columns: 47% 47%;
+    line-height: 150%;
+    grid-gap:6%;
+    align-content: top;
+}
+
+.center {
+    align-items: center;
+    width: 100%;
+  }
+
+.testimonials{
+    display:block;
+    text-align: center;
+    line-height: 500%;
+}
+
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    justify-content:space-around;
+}
+
+nav ul li:hover{
+    background-color:rgb(69, 69, 69);
+}
+
+.line{
+    border-top: 1px red;
+}
